@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000;
+    
+    color: #fff;
+    font-family: system-ui;
+}
+.crud{
+    width: 90%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    margin: 10px 0px;
+    
+    color: #fff;
+}
+.input{
+    background-color: #000;
+    display:grid;
+    border-radius: 3%;
+    border: #fff 3px solid;
+    
+}
+.searchBlock {
+    background-color: #000;
+    border: #fff 3px solid;
+
+    border-radius: 7%;
+
+}
+input{
+    width:40%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #111;
+    margin: 10px 0px 0px 40px;
+    border: #fff 3px solid;
+     
+    border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+}
+input:focus{
+    background: #fff;
+    color: #000;
+    transform: scale(1.1);
+}
+.price input{
+width: 20%;
+}
+#total{
+    background: rgb(169, 21, 11);
+    padding: 5px 2px;
+    border-radius: 4px ;
+}
+#total::before{
+content: 'Total : ';
+}
+button{
+    width: 50%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0px;
+    justify-self:center;
+    /* background: rgb(17, 196, 17); */
+    background-color: #129;
+    border-radius: 20px;
+    color: #fff;
+    font-size: larger;
+    transition: 0.5s;
+}
+button:hover{
+    background: rgb(140, 227, 8);
+    letter-spacing: 1px;
+}
+.btnsearch{
+    display: flex;
+    justify-content: space-between;
+}
+.btnsearch button{
+    width: 45%;
+}
+
+table{
+    width: 100%;
+    text-align:center;
+    margin: 10px 0;
+}
+table th{
+    text-transform: uppercase;
+    background: rgb(21, 125, 199);
+}
+th,td{
+    padding: 5px;
+}
+td{
+    background-color:#fff;
+    color: #000;
+    font-size:larger ;
+    
+}
+#update{
+    background: yellow;
+    padding: 3px;
+    color: #000;
+}
+#delete{
+    background-color: red;
+    padding: 3px;
+}
+#deleteall{
+    
+    background-color: #111;
+}
+.price input{
+    margin: 5px 40px;
+}
+#deleteall button{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#btnn{
+width: 40px;
+height: 40px;
+font-size: x-large;
+border-radius: 50%;
+position: fixed;
+bottom: 10px;
+right: 10px;
+background-color: darkcyan;
+display: none;
+}
